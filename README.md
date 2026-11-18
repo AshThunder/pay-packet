@@ -153,3 +153,7 @@ Warm paper, black ink, hairline rules, and one accent per company kept for the f
 ## Licence
 
 MIT, see [LICENSE](LICENSE). Fonts: Inter and IBM Plex Mono under the SIL Open Font License 1.1 ([`assets/fonts/`](assets/fonts)). All companies, people and figures in `data/` are fictional.
+
+## Author
+
+Chris Gold, X: [@ChrisGold__](https://x.com/ChrisGold__), GitHub: [@AshThunder](https://github.com/AshThunder)
