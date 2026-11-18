@@ -1,0 +1,336 @@
+{
+  "company": {
+    "name": "Brückner Akustik",
+    "monogram": "BA",
+    "legalName": "Brückner Akustik GmbH",
+    "address": [
+      "Spinnereistraße 7",
+      "04179 Leipzig",
+      "Deutschland"
+    ],
+    "registration": {
+      "label": "HRB",
+      "value": "38291, Amtsgericht Leipzig"
+    },
+    "payrollEmail": "lohn@brueckner-akustik.example",
+    "portalUrl": "https://personal.brueckner-akustik.example/abrechnungen",
+    "accent": "#24418F"
+  },
+  "settings": {
+    "locale": "de-DE",
+    "currency": "EUR",
+    "taxYear": "2026",
+    "frequency": "monthly"
+  },
+  "labels": {
+    "payslip": "Entgeltabrechnung",
+    "payslipFor": "Entgeltabrechnung {period}",
+    "annualSummary": "Jahresübersicht",
+    "period": "Zeitraum",
+    "payDate": "Auszahlung",
+    "reference": "Referenz",
+    "employee": "Mitarbeiter",
+    "employeeNo": "Personalnr.",
+    "role": "Tätigkeit",
+    "department": "Abteilung",
+    "startDate": "Eintritt",
+    "paymentTo": "Überweisung an",
+    "earnings": "Bezüge",
+    "deductions": "Abzüge",
+    "employerContributions": "Arbeitgeberanteile",
+    "employerNote": "Von {company} zusätzlich gezahlt, nicht von Ihrem Gehalt abgezogen.",
+    "thisPeriod": "Dieser Monat",
+    "yearToDate": "Jahr kumuliert",
+    "description": "Bezeichnung",
+    "detail": "Grundlage",
+    "grossPay": "Gesamtbrutto",
+    "totalDeductions": "Abzüge gesamt",
+    "netPay": "Auszahlungsbetrag",
+    "balances": "Konten",
+    "taxYear": "Steuerjahr",
+    "greeting": "Hallo {name},",
+    "readyLine": "Ihre Entgeltabrechnung für {period} liegt bereit.",
+    "paidInto": "{amount} überweisen wir am {date} auf Ihr Konto bei der {bank} ({account}).",
+    "openPayslip": "Abrechnung öffnen",
+    "downloadPdf": "PDF herunterladen",
+    "pdfAttached": "Die Abrechnung hängt als PDF an dieser E-Mail.",
+    "questions": "Fragen zur Abrechnung? Antworten Sie auf diese E-Mail oder schreiben Sie an {email}.",
+    "security": "{company} fragt Sie nie per E-Mail nach Passwort oder Bankdaten.",
+    "confidential": "Vertraulich. Erstellt für {name}.",
+    "page": "Seite",
+    "of": "von",
+    "month": "Monat",
+    "netByMonth": "Netto und Abzüge je Monat",
+    "noSlip": "Keine Zahlung in diesem Monat",
+    "slipReady": "Ihre Abrechnung liegt bereit",
+    "openInPortal": "Abrufbar im Personalportal von {company}",
+    "hoursAt": "{hours} Std. zu {rate}",
+    "percentOf": "{percent} % von {base}",
+    "gross": "Brutto",
+    "totals": "Summe",
+    "periodsPaid": "Abgerechnete Monate",
+    "averageNet": "Netto im Schnitt"
+  },
+  "employee": {
+    "id": "0412",
+    "name": "Jonas Albrecht",
+    "firstName": "Jonas",
+    "role": "Akustikingenieur",
+    "department": "Entwicklung",
+    "startDate": "2022-04-01",
+    "email": "j.albrecht@brueckner-akustik.example",
+    "taxId": {
+      "label": "Steuer-ID",
+      "value": "57 492 830 164"
+    },
+    "references": [
+      {
+        "label": "Steuerklasse",
+        "value": "I, 0 Kinder"
+      },
+      {
+        "label": "Krankenkasse",
+        "value": "TK, Zusatzbeitrag 2,45 %"
+      }
+    ],
+    "payment": {
+      "method": "SEPA",
+      "bank": "Sparkasse Leipzig",
+      "account": "DE•• •••• 4021"
+    }
+  },
+  "pay": {
+    "earnings": [
+      {
+        "code": "GEH",
+        "label": "Gehalt",
+        "amount": 5200
+      }
+    ],
+    "deductions": [
+      {
+        "code": "LST",
+        "label": "Lohnsteuer",
+        "amount": 851.25
+      },
+      {
+        "code": "KV",
+        "label": "Krankenversicherung",
+        "percent": 8.525,
+        "base": "gross"
+      },
+      {
+        "code": "RV",
+        "label": "Rentenversicherung",
+        "percent": 9.3,
+        "base": "gross"
+      },
+      {
+        "code": "AV",
+        "label": "Arbeitslosenversicherung",
+        "percent": 1.3,
+        "base": "gross"
+      },
+      {
+        "code": "PV",
+        "label": "Pflegeversicherung",
+        "percent": 2.4,
+        "base": "gross"
+      }
+    ],
+    "employer": [
+      {
+        "code": "AGKV",
+        "label": "Krankenversicherung",
+        "percent": 8.525,
+        "base": "gross"
+      },
+      {
+        "code": "AGRV",
+        "label": "Rentenversicherung",
+        "percent": 9.3,
+        "base": "gross"
+      },
+      {
+        "code": "AGAV",
+        "label": "Arbeitslosenversicherung",
+        "percent": 1.3,
+        "base": "gross"
+      },
+      {
+        "code": "AGPV",
+        "label": "Pflegeversicherung",
+        "percent": 1.8,
+        "base": "gross"
+      }
+    ]
+  },
+  "periods": [
+    {
+      "id": "2026-01",
+      "start": "2026-01-01",
+      "end": "2026-01-31",
+      "payDate": "2026-01-30",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "30 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-02",
+      "start": "2026-02-01",
+      "end": "2026-02-28",
+      "payDate": "2026-02-27",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "28 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-03",
+      "start": "2026-03-01",
+      "end": "2026-03-31",
+      "payDate": "2026-03-31",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "28 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-04",
+      "start": "2026-04-01",
+      "end": "2026-04-30",
+      "payDate": "2026-04-30",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "28 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-05",
+      "start": "2026-05-01",
+      "end": "2026-05-31",
+      "payDate": "2026-05-29",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "24 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-06",
+      "start": "2026-06-01",
+      "end": "2026-06-30",
+      "payDate": "2026-06-30",
+      "earnings": [
+        {
+          "code": "UG",
+          "label": "Urlaubsgeld",
+          "amount": 1200
+        }
+      ],
+      "deductions": [
+        {
+          "code": "LST",
+          "label": "Lohnsteuer",
+          "amount": 1238.16
+        }
+      ],
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "24 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-07",
+      "start": "2026-07-01",
+      "end": "2026-07-31",
+      "payDate": "2026-07-31",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "14 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-08",
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "payDate": "2026-08-31",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "9 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-09",
+      "start": "2026-09-01",
+      "end": "2026-09-30",
+      "payDate": "2026-09-30",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "9 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-10",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "payDate": "2026-10-30",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "6 von 30 Tagen"
+        }
+      ]
+    },
+    {
+      "id": "2026-11",
+      "start": "2026-11-01",
+      "end": "2026-11-30",
+      "payDate": "2026-11-30",
+      "earnings": [
+        {
+          "code": "WG",
+          "label": "Weihnachtsgeld",
+          "amount": 2600
+        }
+      ],
+      "deductions": [
+        {
+          "code": "LST",
+          "label": "Lohnsteuer",
+          "amount": 1749.25
+        },
+        {
+          "code": "SOLI",
+          "label": "Solidaritätszuschlag",
+          "amount": 18.42
+        }
+      ],
+      "message": "Mit dieser Abrechnung zahlen wir das Weihnachtsgeld (50 % eines Monatsgehalts) laut Arbeitsvertrag, § 4.",
+      "balances": [
+        {
+          "label": "Resturlaub",
+          "value": "6 von 30 Tagen"
+        }
+      ]
+    }
+  ]
+}

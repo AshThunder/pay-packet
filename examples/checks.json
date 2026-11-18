@@ -1,0 +1,47 @@
+[
+  {
+    "file": "data/brueckner-akustik.json",
+    "pass": true,
+    "artefactsChecked": 16,
+    "errors": 0,
+    "warnings": 0,
+    "dataIssues": [],
+    "notesByCode": {
+      "email/outlook-degraded": 20,
+      "email/degraded": 1,
+      "email/phone-styles": 1,
+      "email/lint-text-size": 11,
+      "page/lint-text-size": 89
+    }
+  },
+  {
+    "file": "data/kestrel-freight.json",
+    "pass": true,
+    "artefactsChecked": 16,
+    "errors": 0,
+    "warnings": 0,
+    "dataIssues": [],
+    "notesByCode": {
+      "email/outlook-degraded": 20,
+      "email/degraded": 1,
+      "email/phone-styles": 1,
+      "email/lint-text-size": 11,
+      "page/lint-text-size": 85
+    }
+  },
+  {
+    "file": "data/thornbury-cycle-works.json",
+    "pass": true,
+    "artefactsChecked": 17,
+    "errors": 0,
+    "warnings": 0,
+    "dataIssues": [],
+    "notesByCode": {
+      "email/outlook-degraded": 20,
+      "email/degraded": 1,
+      "email/phone-styles": 1,
+      "email/lint-text-size": 12,
+      "page/lint-text-size": 74
+    }
+  }
+]

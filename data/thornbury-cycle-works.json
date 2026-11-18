@@ -1,0 +1,343 @@
+{
+  "company": {
+    "name": "Thornbury Cycle Works",
+    "monogram": "TCW",
+    "legalName": "Thornbury Cycle Works Ltd",
+    "address": [
+      "Unit 4, Feeder Road Trade Park",
+      "Bristol BS2 0SB",
+      "United Kingdom"
+    ],
+    "registration": {
+      "label": "Company no.",
+      "value": "09184427"
+    },
+    "payrollEmail": "payroll@thornburycycleworks.example",
+    "portalUrl": "https://people.thornburycycleworks.example/payslips",
+    "accent": "#1F5C46"
+  },
+  "settings": {
+    "locale": "en-GB",
+    "currency": "GBP",
+    "taxYear": "2025/26",
+    "frequency": "monthly"
+  },
+  "employee": {
+    "id": "TCW-0117",
+    "name": "Megan Pryce",
+    "firstName": "Megan",
+    "role": "Frame Builder",
+    "department": "Workshop",
+    "startDate": "2021-09-06",
+    "email": "megan.pryce@thornburycycleworks.example",
+    "taxId": {
+      "label": "NI number",
+      "value": "QQ 12 34 56 C"
+    },
+    "references": [
+      {
+        "label": "Tax code",
+        "value": "1257L"
+      },
+      {
+        "label": "Pension scheme",
+        "value": "NEST, 5% / 3%"
+      }
+    ],
+    "payment": {
+      "method": "BACS",
+      "bank": "Nationwide",
+      "account": "•••• 6604"
+    }
+  },
+  "pay": {
+    "earnings": [
+      {
+        "code": "SAL",
+        "label": "Salary",
+        "amount": 3200,
+        "note": "£38,400.00 a year"
+      }
+    ],
+    "deductions": [
+      {
+        "code": "PAYE",
+        "label": "Income Tax",
+        "amount": 430.5
+      },
+      {
+        "code": "NIC",
+        "label": "National Insurance",
+        "amount": 172.16
+      },
+      {
+        "code": "PEN",
+        "label": "Pension (NEST)",
+        "percent": 5,
+        "base": "gross"
+      },
+      {
+        "code": "SL",
+        "label": "Student Loan (Plan 2)",
+        "amount": 74
+      }
+    ],
+    "employer": [
+      {
+        "code": "ERPEN",
+        "label": "Employer pension (NEST)",
+        "percent": 3,
+        "base": "gross"
+      },
+      {
+        "code": "ERNIC",
+        "label": "Employer National Insurance",
+        "amount": 417.5
+      }
+    ]
+  },
+  "periods": [
+    {
+      "id": "2025-04",
+      "start": "2025-04-01",
+      "end": "2025-04-30",
+      "payDate": "2025-04-25",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "25 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2025-05",
+      "start": "2025-05-01",
+      "end": "2025-05-31",
+      "payDate": "2025-05-23",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "23 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2025-06",
+      "start": "2025-06-01",
+      "end": "2025-06-30",
+      "payDate": "2025-06-25",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "23 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2025-07",
+      "start": "2025-07-01",
+      "end": "2025-07-31",
+      "payDate": "2025-07-25",
+      "earnings": [
+        {
+          "code": "OT",
+          "label": "Overtime at time and a half",
+          "hours": 12,
+          "rate": 27.69
+        }
+      ],
+      "message": "Overtime: Sat 12 Jul, Sat 19 Jul: Bristol Bike Show frames.",
+      "deductions": [
+        {
+          "code": "PAYE",
+          "label": "Income Tax",
+          "amount": 496.96
+        },
+        {
+          "code": "NIC",
+          "label": "National Insurance",
+          "amount": 198.74
+        },
+        {
+          "code": "SL",
+          "label": "Student Loan (Plan 2)",
+          "amount": 104
+        }
+      ],
+      "employer": [
+        {
+          "code": "ERNIC",
+          "label": "Employer National Insurance",
+          "amount": 467.34
+        }
+      ],
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "23 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2025-08",
+      "start": "2025-08-01",
+      "end": "2025-08-31",
+      "payDate": "2025-08-22",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "18 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2025-09",
+      "start": "2025-09-01",
+      "end": "2025-09-30",
+      "payDate": "2025-09-25",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "18 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2025-10",
+      "start": "2025-10-01",
+      "end": "2025-10-31",
+      "payDate": "2025-10-24",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "17 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2025-11",
+      "start": "2025-11-01",
+      "end": "2025-11-30",
+      "payDate": "2025-11-25",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "17 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2025-12",
+      "start": "2025-12-01",
+      "end": "2025-12-31",
+      "payDate": "2025-12-19",
+      "earnings": [
+        {
+          "code": "BONUS",
+          "label": "Christmas bonus",
+          "amount": 750
+        }
+      ],
+      "message": "Christmas bonus paid with December pay, as agreed in the October staff meeting.",
+      "deductions": [
+        {
+          "code": "PAYE",
+          "label": "Income Tax",
+          "amount": 580.5
+        },
+        {
+          "code": "NIC",
+          "label": "National Insurance",
+          "amount": 232.16
+        },
+        {
+          "code": "SL",
+          "label": "Student Loan (Plan 2)",
+          "amount": 142
+        }
+      ],
+      "employer": [
+        {
+          "code": "ERNIC",
+          "label": "Employer National Insurance",
+          "amount": 530
+        }
+      ],
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "14 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-01",
+      "start": "2026-01-01",
+      "end": "2026-01-31",
+      "payDate": "2026-01-23",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "14 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-02",
+      "start": "2026-02-01",
+      "end": "2026-02-28",
+      "payDate": "2026-02-25",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "12 of 25 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-03",
+      "start": "2026-03-01",
+      "end": "2026-03-31",
+      "payDate": "2026-03-25",
+      "earnings": [
+        {
+          "code": "OT",
+          "label": "Overtime at time and a half",
+          "hours": 8,
+          "rate": 27.69
+        }
+      ],
+      "message": "Overtime: Sat 14 Mar: spring order backlog.",
+      "deductions": [
+        {
+          "code": "PAYE",
+          "label": "Income Tax",
+          "amount": 474.8
+        },
+        {
+          "code": "NIC",
+          "label": "National Insurance",
+          "amount": 189.88
+        },
+        {
+          "code": "SL",
+          "label": "Student Loan (Plan 2)",
+          "amount": 94
+        }
+      ],
+      "employer": [
+        {
+          "code": "ERNIC",
+          "label": "Employer National Insurance",
+          "amount": 450.73
+        }
+      ],
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "10.5 of 25 days"
+        }
+      ]
+    }
+  ]
+}

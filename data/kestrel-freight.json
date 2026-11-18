@@ -1,0 +1,295 @@
+{
+  "company": {
+    "name": "Kestrel Freight",
+    "monogram": "KF",
+    "legalName": "Kestrel Freight Limited",
+    "address": [
+      "Plot 14, Trans-Amadi Industrial Layout",
+      "Port Harcourt, Rivers State",
+      "Nigeria"
+    ],
+    "registration": {
+      "label": "RC",
+      "value": "1748203"
+    },
+    "payrollEmail": "payroll@kestrelfreight.example",
+    "portalUrl": "https://hr.kestrelfreight.example/payslips",
+    "accent": "#A8431C"
+  },
+  "settings": {
+    "locale": "en-NG",
+    "currency": "NGN",
+    "taxYear": "2026",
+    "frequency": "monthly"
+  },
+  "employee": {
+    "id": "KF-2093",
+    "name": "Chidinma Eze",
+    "firstName": "Chidinma",
+    "role": "Fleet Operations Analyst",
+    "department": "Operations",
+    "startDate": "2023-02-13",
+    "email": "chidinma.eze@kestrelfreight.example",
+    "taxId": {
+      "label": "TIN",
+      "value": "23874019-0001"
+    },
+    "references": [
+      {
+        "label": "Pension PIN",
+        "value": "PEN100482917366"
+      },
+      {
+        "label": "PFA",
+        "value": "Stanbic IBTC Pension"
+      }
+    ],
+    "payment": {
+      "method": "NIP transfer",
+      "bank": "Access Bank",
+      "account": "•••• 4821"
+    }
+  },
+  "pay": {
+    "earnings": [
+      {
+        "code": "BASIC",
+        "label": "Basic salary",
+        "amount": 450000
+      },
+      {
+        "code": "HOUSE",
+        "label": "Housing allowance",
+        "amount": 180000
+      },
+      {
+        "code": "TRANS",
+        "label": "Transport allowance",
+        "amount": 90000
+      },
+      {
+        "code": "MEAL",
+        "label": "Meal allowance",
+        "amount": 30000
+      }
+    ],
+    "deductions": [
+      {
+        "code": "PAYE",
+        "label": "PAYE income tax",
+        "amount": 84350
+      },
+      {
+        "code": "PEN",
+        "label": "Pension (employee)",
+        "percent": 8,
+        "base": [
+          "BASIC",
+          "HOUSE",
+          "TRANS"
+        ]
+      },
+      {
+        "code": "NHF",
+        "label": "National Housing Fund",
+        "percent": 2.5,
+        "base": [
+          "BASIC"
+        ]
+      },
+      {
+        "code": "COOP",
+        "label": "Staff cooperative savings",
+        "amount": 25000
+      }
+    ],
+    "employer": [
+      {
+        "code": "ERPEN",
+        "label": "Pension (employer)",
+        "percent": 10,
+        "base": [
+          "BASIC",
+          "HOUSE",
+          "TRANS"
+        ]
+      },
+      {
+        "code": "NSITF",
+        "label": "NSITF (employee compensation)",
+        "percent": 1,
+        "base": "gross"
+      },
+      {
+        "code": "HMO",
+        "label": "Health insurance (HMO)",
+        "amount": 18500
+      }
+    ]
+  },
+  "periods": [
+    {
+      "id": "2026-01",
+      "start": "2026-01-01",
+      "end": "2026-01-31",
+      "payDate": "2026-01-26",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "20 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-02",
+      "start": "2026-02-01",
+      "end": "2026-02-28",
+      "payDate": "2026-02-26",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "20 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-03",
+      "start": "2026-03-01",
+      "end": "2026-03-31",
+      "payDate": "2026-03-26",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "17 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-04",
+      "start": "2026-04-01",
+      "end": "2026-04-30",
+      "payDate": "2026-04-24",
+      "earnings": [
+        {
+          "code": "PERF",
+          "label": "Performance bonus (Q1)",
+          "amount": 150000
+        }
+      ],
+      "deductions": [
+        {
+          "code": "PAYE",
+          "label": "PAYE income tax",
+          "amount": 121350
+        }
+      ],
+      "message": "Q1 performance bonus: fleet on-time rate 97.2% against a 95% target.",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "17 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-05",
+      "start": "2026-05-01",
+      "end": "2026-05-31",
+      "payDate": "2026-05-26",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "17 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-06",
+      "start": "2026-06-01",
+      "end": "2026-06-30",
+      "payDate": "2026-06-26",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "12 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-07",
+      "start": "2026-07-01",
+      "end": "2026-07-31",
+      "payDate": "2026-07-24",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "12 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-08",
+      "start": "2026-08-01",
+      "end": "2026-08-31",
+      "payDate": "2026-08-26",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "10 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-09",
+      "start": "2026-09-01",
+      "end": "2026-09-30",
+      "payDate": "2026-09-25",
+      "earnings": [
+        {
+          "code": "FIELD",
+          "label": "Field allowance",
+          "amount": 45000,
+          "note": "Onne port deployment, 8 to 19 Sep"
+        }
+      ],
+      "deductions": [
+        {
+          "code": "PAYE",
+          "label": "PAYE income tax",
+          "amount": 92850
+        }
+      ],
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "10 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-10",
+      "start": "2026-10-01",
+      "end": "2026-10-31",
+      "payDate": "2026-10-26",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "9 of 20 days"
+        }
+      ]
+    },
+    {
+      "id": "2026-11",
+      "start": "2026-11-01",
+      "end": "2026-11-30",
+      "payDate": "2026-11-26",
+      "message": "From December, transport allowance rises to ₦110,000 a month, as set out in the 2027 pay review letter.",
+      "balances": [
+        {
+          "label": "Annual leave left",
+          "value": "9 of 20 days"
+        }
+      ]
+    }
+  ]
+}

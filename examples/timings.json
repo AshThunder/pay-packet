@@ -1,0 +1,19 @@
+{
+  "note": "Measured on the machine that last ran npm run make; for scale, not a benchmark.",
+  "node": "v22.14.0",
+  "brueckner-akustik": {
+    "slips": 11,
+    "unpaidPeriods": 0,
+    "yearBatchMs": 1334
+  },
+  "kestrel-freight": {
+    "slips": 11,
+    "unpaidPeriods": 0,
+    "yearBatchMs": 1142
+  },
+  "thornbury-cycle-works": {
+    "slips": 12,
+    "unpaidPeriods": 0,
+    "yearBatchMs": 1139
+  }
+}
